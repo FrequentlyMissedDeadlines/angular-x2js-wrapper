@@ -1,0 +1,45 @@
+{
+  "name": "angular-x2js-wrapper",
+  "version": "1.0.0",
+  "description": "X2JS angularjs wrapper",
+  "main": "dist/angular-x2js-wrapper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "jshint src",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "files": [
+    "README.md",
+    "package.json",
+    "LICENSE",
+    "CHANGELOG.md",
+    "dist/angular-x2js-wrapper.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrequentlyMissedDeadlines/angular-x2js-wrapper.git"
+  },
+  "keywords": [
+    "x2js",
+    "xml",
+    "parser",
+    "angular",
+    "AngularJS"
+  ],
+  "author": "FrequentlyMissedDeadlines",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrequentlyMissedDeadlines/angular-x2js-wrapper/issues"
+  },
+  "homepage": "https://github.com/FrequentlyMissedDeadlines/angular-x2js-wrapper",
+  "devDependencies": {
+    "jshint": "^2.12.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "angular": "^1.8.0",
+    "x2js": "^3.4.0"
+  }
+}
