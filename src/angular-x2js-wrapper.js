@@ -1,6 +1,6 @@
 'use strict';
 
-import X2JS from 'x2js/dist/x2js.min';
+import X2JS from 'x2js/x2js';
 
 angular.module('fmd.x2js', [])
 .factory('x2js', function () {
